@@ -32,8 +32,6 @@ function App() {
       } else {
         setPdfFile(null);
       }
-    } else {
-      console.log("please select a PDF file");
     }
   };
 
@@ -52,7 +50,7 @@ function App() {
         <div className="row align-items-start h-100 container__nav">
           <nav className="col-2 h-100  ">
             <img src={logo129} className="img-thumbnail" />
-            {/* <img src="https://images.app.goo.gl/FpPVnLe1mbYDSNe89" alt="" /> */}
+
             <div className="nav nav-pills flex-column flex-sm-row">
               <a
                 className="flex-sm-fill text-sm-center nav-link active"
